@@ -98,6 +98,24 @@
     font-size: 24px;
     font-weight: bold;
 }
+/* My inspiration */
+.inspiration{
+    padding: 104px 152px;
+    text-align: center;
+}
+.inspiration-video{
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 32px;
+}
+.inspiration p{
+    padding: 10px 0px 30px;
+}
+.inspiration h3{
+    font-size: 32px;
+    font-weight: bolder;
+    padding: 10px;
+}
 /* my-current-target */
 .my-current-target{
     margin: 0px 150px 49px;
