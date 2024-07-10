@@ -31,7 +31,7 @@
 }
 
 .banner{
-    background-image: url(../assets/Hero-bg.png);
+    background-image: url(assets/Hero-bg.png);
 }
 
 .banner-title{
@@ -98,6 +98,7 @@
     font-size: 24px;
     font-weight: bold;
 }
-.goal-image{
-    
+/* my-current-target */
+.my-current-target{
+    margin: 0px 150px 49px;
 }
