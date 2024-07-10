@@ -2,6 +2,7 @@
 /* fonts */
 *{
     font-family: Azeret Mono;
+    margin: 0;
 }
 /* banner */
 /* portfolio.css */
@@ -48,9 +49,34 @@
 .btn-banner{
     border-radius: 8px;
     background-color: black;
-    color: white;
+    color: rgb(219, 219, 219);
     height: 65px;
     width: 244px;
     margin-top: 32px;
     /* margin-bottom: 35px; */
+}
+
+/* why web dev */
+.journey{
+    padding: 148px 74px 0px;
+    background-color: rgb(243, 243, 243);
+}
+.web-container{
+    margin: 80px 97px;
+}
+.web-title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+}
+.goal-conatiner{
+    margin-top: 48px;
+}
+.goal{
+    background: linear-gradient(to right, #ffffff, rgb(243, 243, 243));
+    border-radius: 16px;
+    display: flex;
+    padding: 48px;
 }
