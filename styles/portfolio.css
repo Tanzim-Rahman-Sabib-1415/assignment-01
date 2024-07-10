@@ -58,7 +58,7 @@
 
 /* why web dev */
 .journey{
-    padding: 148px 74px 0px;
+    padding: 148px 74px 80px;
     background-color: rgb(243, 243, 243);
 }
 .web-container{
@@ -73,10 +73,31 @@
 }
 .goal-conatiner{
     margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 .goal{
     background: linear-gradient(to right, #ffffff, rgb(243, 243, 243));
     border-radius: 16px;
     display: flex;
     padding: 48px;
+    justify-content: space-between;
+}
+.goal-detail{
+    margin-top: 16px;
+    margin-bottom: 32px;
+    font-size: 16px;
+}
+.btn-goal{
+    height: 47px;
+    width: 171px;
+    padding: 12px 20px;
+}
+.goal-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+.goal-image{
+    
 }
