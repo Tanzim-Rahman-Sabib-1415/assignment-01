@@ -141,5 +141,36 @@ footer{
     background-color: rgb(243, 243, 243);
     display: flex;
     justify-content: space-between;
-    padding: 32px 150px;
+    padding: 32px 150px 0px;
+}
+/* support section */
+.support{
+    margin: 35px 150px;
+    background-image: url("assets/handshake.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 313px;
+    width: 1140;
+    border-radius: 16px;
+    padding: 144px 48px 64px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+.sup-title{
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+}
+.sup-detail{
+    padding-top: 16px;
+    padding-bottom: 24px;
+    color: white;
+    font-size: 16px;
+}
+.submit-duo{
+    padding: 17px 20px;
+    border-radius: 8px;
+    border: none;
 }
