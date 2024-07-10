@@ -58,8 +58,10 @@
 
 /* why web dev */
 .journey{
-    padding: 148px 74px 2px;
+    padding: 78px 74px 2px;
+    margin: 74px 150px 0px;
     background-color: rgb(243, 243, 243);
+    border-radius: 16px;
 }
 .web-container{
     margin: 80px 97px;
@@ -133,12 +135,13 @@
     display: flex;
     gap: 20px;
     justify-content: center;
+    margin: 0px 150px
 }
 .tech-item1{
     background-color: rgb(255, 222, 222);
     border-radius: 16px;
-    height: 150px;
-    width: 150px;
+    height: auto;
+    width: 100%;
     padding: 40px;
 }
 .tech{
@@ -149,6 +152,9 @@
 }
 #c2{
     background-color: rgb(255, 255, 193);
+}
+.pp{
+    color: black;
 }
 /* footer */
 .foot-icon{
