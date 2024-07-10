@@ -58,7 +58,7 @@
 
 /* why web dev */
 .journey{
-    padding: 148px 74px 80px;
+    padding: 148px 74px 2px;
     background-color: rgb(243, 243, 243);
 }
 .web-container{
@@ -101,4 +101,45 @@
 /* my-current-target */
 .my-current-target{
     margin: 0px 150px 49px;
+}
+.current-title{
+    text-align: center;
+    margin-bottom: 24px;
+
+}
+.current-detail{
+    text-align: center;
+    margin-bottom: 48px;
+}
+.tech-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.tech-item1{
+    background-color: rgb(255, 222, 222);
+    border-radius: 16px;
+    height: 150px;
+    width: 150px;
+    padding: 40px;
+}
+.tech{
+    margin-bottom: 24px;
+}
+#c1{
+    background-color: rgb(199, 199, 255);
+}
+#c2{
+    background-color: rgb(255, 255, 193);
+}
+/* footer */
+.foot-icon{
+    display: flex;
+    gap: 4px;
+} 
+footer{
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 150px;
 }
