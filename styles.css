@@ -110,6 +110,7 @@
     border-radius: 16px;
     padding: 32px;
 }
+
 .inspiration p{
     padding: 10px 0px 30px;
 }
@@ -148,10 +149,10 @@
     margin-bottom: 24px;
 }
 #c1{
-    background-color: rgb(199, 199, 255);
+    background-color: rgb(225, 225, 255);
 }
 #c2{
-    background-color: rgb(255, 255, 193);
+    background-color: rgb(255, 255, 225);
 }
 .pp{
     color: black;
@@ -197,4 +198,7 @@ footer{
     padding: 17px 20px;
     border-radius: 8px;
     border: none;
+}
+.sup-input{
+    width: 33%;
 }
